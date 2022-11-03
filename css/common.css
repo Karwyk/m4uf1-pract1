@@ -1,0 +1,111 @@
+/* Paleta de colores:
+#b57c00
+#d09306
+#ecab0f
+#f7d547
+#ffff72
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    text-align: center;
+}
+
+header > div {
+    background-image: url(../img/breakingbadwallpaper.jpg);
+    background-size: 100% 200%;
+    background-position: center;
+    height: 16em;
+    background-repeat: no-repeat;
+}
+
+header > ul > li {
+    display: inline;
+    margin: 2em;
+}
+
+header > ul {
+    background: linear-gradient(to right, #9c6c06, #f2ce3d);
+    border-top-style: solid;
+    border-width: 1px;
+    border-color: #ffff72;
+    padding: 10px;
+    margin-bottom: 2em;
+}
+
+header > ul > li > a {
+    text-decoration: none;
+    color: black;
+    font-size: 18px;
+}
+
+aside {
+    float: left;
+    display: inline;
+    margin: 1em;
+}
+
+aside > img {
+    border-radius: 1em;
+}
+
+article {
+    display: inline;
+    float: left;
+    width: 70%;
+    margin: 2em;
+}
+
+article, img {
+    border-radius: 0.3em;
+    margin-top: 1em;
+}
+
+section {
+    margin: 1em;
+}
+
+section > h1 {
+    font-weight: bold;
+    font-size: 28px;
+}
+
+section > h3 {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 1em;
+}
+
+section > p {
+    font-size: 17px;
+}
+
+footer {
+    clear: both;
+    text-align: center;
+    margin-bottom: 2em;
+    margin-top: 2em;
+    background-color: #f7d547;
+}
+
+footer > ul > li > a{
+    margin: 4em;
+    
+}
+
+footer > ul > li {
+    display: inline;
+}
+
+footer > p {
+    margin: 1em;
+    font-weight: bold;
+}
+
+body {
+    background-color: #fcfc83;
+}

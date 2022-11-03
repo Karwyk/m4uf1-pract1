@@ -1,0 +1,16 @@
+section{
+    display: inline-block;
+    margin: 3em;
+    text-align: center;
+}
+
+article {
+    width: 80%;
+    text-align: center;
+    margin-left: 10em;
+}
+
+h1 {
+    margin: 2em 0em 1em 2em;
+    font-size: 28px;
+}
